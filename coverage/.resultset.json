@@ -50,6 +50,12 @@
       "/Users/autumnmartin/turing/3module/diagnostic/alt-fuel-finder/app/models/station.rb": [
         1,
         1,
+        1,
+        10,
+        10,
+        10,
+        10,
+        10,
         null,
         null
       ],
@@ -58,6 +64,6 @@
         0
       ]
     },
-    "timestamp": 1539795363
+    "timestamp": 1539795654
   }
 }
