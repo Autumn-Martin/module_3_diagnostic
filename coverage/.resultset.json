@@ -15,11 +15,17 @@
         1,
         null
       ],
+      "/Users/autumnmartin/turing/3module/diagnostic/alt-fuel-finder/app/controllers/search_controller.rb": [
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/autumnmartin/turing/3module/diagnostic/alt-fuel-finder/app/helpers/application_helper.rb": [
         0,
         0
       ]
     },
-    "timestamp": 1539790630
+    "timestamp": 1539790708
   }
 }
