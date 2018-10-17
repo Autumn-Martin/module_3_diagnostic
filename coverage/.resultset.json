@@ -1,0 +1,105 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/autumnmartin/turing/3module/diagnostic/alt-fuel-finder/app/controllers/welcome_controller.rb": [
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/autumnmartin/turing/3module/diagnostic/alt-fuel-finder/app/controllers/application_controller.rb": [
+        1,
+        null,
+        null,
+        1,
+        null
+      ],
+      "/Users/autumnmartin/turing/3module/diagnostic/alt-fuel-finder/app/controllers/search_controller.rb": [
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/autumnmartin/turing/3module/diagnostic/alt-fuel-finder/app/models/station_search.rb": [
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        10,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/autumnmartin/turing/3module/diagnostic/alt-fuel-finder/app/nrel_service/nrel_service.rb": [
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/autumnmartin/turing/3module/diagnostic/alt-fuel-finder/app/models/station.rb": [
+        1,
+        1,
+        1,
+        10,
+        10,
+        10,
+        10,
+        10,
+        null,
+        null
+      ],
+      "/Users/autumnmartin/turing/3module/diagnostic/alt-fuel-finder/app/helpers/application_helper.rb": [
+        0,
+        0
+      ]
+    },
+    "timestamp": 1539796221
+  }
+}
