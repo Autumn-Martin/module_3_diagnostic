@@ -17,6 +17,6 @@ feature 'When user searches for stations by zip code' do
     click_on "Locate"
 
     expect(current_path).to eq(search_path)
-    expect(page).to have_css(".station", count = 10)
+    expect(page).to have_css(".station", count: 10)
   end
 end
