@@ -4,6 +4,12 @@ class StationSearch
   end
 
   def stations
+    data = service.stations_by_distance
+    data[:fuel_stations].map do |station_data|
+      Station.new(station_data)
+    end
+
+
     # https://developer.nrel.gov/api/alt-fuel-stations/v1/nearest.json?location=80203&fuel_type=ELEC, LPG&limit=10&api_key=ENV["nrel_api_key"]
     conn = Faraday.new(url: "https://developer.nrel.gov") do |faraday|
       faraday.params["location"] = "80203"
@@ -20,4 +26,8 @@ class StationSearch
       Station.new(station_data)
     end
   end
+
+  def service
+    NrelService.new(@zip_code)
+  end 
 end
