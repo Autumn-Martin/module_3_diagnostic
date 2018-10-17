@@ -15,6 +15,9 @@ class StationSearch
 
     response = conn.get("/api/alt-fuel-stations/v1/nearest.json")
     data = JSON.parse(response.body, symbolize_names: true)
-    binding.pry
+
+    data[:fuel_stations].map do |station_data|
+      Station.new(station_data)
+    end
   end
 end
